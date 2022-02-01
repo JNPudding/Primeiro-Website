@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Fonte da Logo */
+.brand-logo.right {
+    font-size: 23px;
+}
+
+/* Posição Rede Social */
+.wrapper { 
+    display: inline-flex;
+    margin: 0 auto;
+    padding-top: 300px;
+  
+  }
+
+/* Menu Mobile */
+
+.nav-wrapper {
+    background: rgb(75, 114, 221);
+  }
+  
+  .brand-logo {
+    margin-right: 15px;
+  }
+  
+  nav .brand-logo.right{
+    text-decoration: none;
+  }
+  
+  .sombras {
+    box-shadow: none;
+  
+  }
+
+/* Fundo Cor */
+  .centered-wrapper {
+    background-color: #4184f0;
+  }
+
+
+  h2 {
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(109, 6, 194);
+  }

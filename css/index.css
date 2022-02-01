@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Fonte da Logo */
+.brand-logo.right {
+  font-size: 23px;
+}
+
+.centered-wrapper {
+  background-color: #4184f0;
+}
+
+/* Posição Rede Social */
+.wrapper { 
+  display: inline-flex;
+  margin: 0 auto;
+  padding-top: 80px;
+
+}
+
+/* Troca de cores Bem-vindo(a) */
+
+@keyframes colorRotate {
+  from {
+    color: #2626ee;
+  }
+  20% {
+    color: #ff7300;
+  }
+  40% {
+    color: #00ff00;
+  }
+  60% {
+    color: #fa77b9;
+  }
+  80% {
+    color: #ffe600f8;
+  }
+  100% {
+    color: #ee5c5c;
+  }
+}
+
+/* Troca de cores TAG */
+
+@keyframes tag {
+  from {
+    color: rgb(193, 250, 6);
+  }
+  50% {
+    color: #64da16;
+  }
+  100% {
+    color: rgb(193, 250, 6);
+  }
+}
+
+/* Janelão do Meio */
+ .janelao {  
+  background: rgb(75, 114, 221);
+  border-radius: 5%;
+  width: 360px;
+  height: 400px;
+  
+}
+
+
+ /* Nome Janelão */
+.tag {
+    text-align: center;
+    padding-top: 120px;
+    margin-top:20%;
+    color: rgb(193, 250, 6);
+    font-size: 20px;
+    animation: tag 6s linear 0s infinite;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 15px;
+  
+}
+
+ .descricao{
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  padding-top: 8px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.bem-vindo {
+  text-align: center;
+  top: 20px;
+  font-size: 30px;
+  font-family: 'Spline Sans', sans-serif;
+  letter-spacing: 1px;
+  animation: colorRotate 6s linear 0s infinite;
+  position: relative;
+}
+
+/* Menu Mobile */
+
+.nav-wrapper {
+  background: rgb(75, 114, 221);
+}
+
+.brand-logo {
+  margin-right: 15px;
+}
+
+nav .brand-logo.right{
+  text-decoration: none;
+}
+
+.sombras {
+  box-shadow: none;
+
+}
